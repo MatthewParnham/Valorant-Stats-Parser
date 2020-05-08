@@ -31,7 +31,7 @@ def classify_hero(im):
             return hero_image_names[i]
 
 
-img = cv2.imread('2020-05-01 (1).png')
+img = cv2.imread('2020-05-01.png')
 
 img = img[:,1920:,:]
 
